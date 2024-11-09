@@ -1,0 +1,62 @@
+.category {
+  background-color: rgb(208, 250, 236);
+  border: none;
+}
+.category form {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.range {
+  background-color: rgb(255, 239, 248);
+  border: none;
+}
+.color {
+  background-color: rgb(255, 245, 217);
+  border: none;
+}
+.mainLayout {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+}
+
+.card-icons {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  /* padding: 0.6em 1.2em; */
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  box-shadow: #995353;
+}
+.clickable-span {
+  color: black; /* Default color */
+  transition: color 0.3s ease; /* Smooth color transition */
+  cursor: pointer;
+}
+
+.clickable-span:hover {
+  color: blue; /* Change color to blue on hover */
+}
+.cardAddedData {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  align-items: center;
+  justify-content: center;
+}
+.card-count {
+  position: absolute;
+  left: 1px;
+  bottom: -27px;
+  /* border: 1px solid; */
+  padding: 1px;
+  padding-left: 7px;
+  padding-right: 7px;
+  background: #fcc8fd;
+  border-radius: 4px;
+}
